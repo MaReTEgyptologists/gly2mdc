@@ -1,0 +1,33 @@
+++JSesh_Info 1.0 +s
+++JSesh_use_lines_for_shading true +s
+++JSesh_max_quadrant_width 22.0 +s
+++JSesh_line_skip 6.0 +s
+++JSesh_small_skip 2.0 +s
+++JSesh_column_skip 10.0 +s
+++JSesh_standard_sign_height 18.0 +s
+++JSesh_small_body_scale_limit 12.0 +s
+++JSesh_cartouche_line_width 1.0 +s
+++JSesh_small_sign_centered false +s
+++JSesh_page_direction RIGHT_TO_LEFT +s
+++JSesh_max_quadrantHeight 18.0 +s
+++JSesh_page_orientation HORIZONTAL +s
++lO. Ashm. 113 +s-!
+|obv1-//_-(Z1*Z1)-(N11:Z1)-O1_-D21:X1*N5_-A24_-(R22:R12)-A1_-O1_-S29_-Ff105_-V20_-Z15E-!
+|obv2-//_-D58_-M17_-Ff105_-Z15C_-K5_-F46:N35_-V1_-V20D-G17_-(D46:X1*Z1)-V30:V22_-V28_-M17_-M17_-P5_-A1-!
+|obv3-(N11:Z1)-O1_-(D21:X1*N5)-Z16A_-D19_-Y1:Z2_-D6:I9_-A1-!
+|obv4-(N11:Z1)-O1_-(D21:X1*N5)-Z16B_-N5:U6:D21_-M17_-M17_-A2-!
+|obv5-(N11:Z1)-O1_-(D21:X1)*Z1_-Z16C_-F31_-S29_-Z14:A1-!
+|obv6-v/_-O1_-//_-Z16D_-G41_-G1_-S43_-A24_-X1_-Z7_-N35_-F46:N35_-V1B_-V20H_-G17_-(D46:X1*Z1)-M17_-Y5:N35_-G17_-M17_-K1:N35_-X1:N25_-M30_-N33:Z2_-Z1_-R14_-G17_-//-!
+|obv7-//_-O1_-v/_-N5_-Z16E_-F12_-S29_-(D21:D40)-(F4:X1*Z1)-A1-!
+|obv8-(N11:Z1)-O1_-(D21:X1)-N5_-Z16F_-(R22:R12)*Z14_-N28:X1*Z14_-Y1:A1_-M3:Z1_-V1B_-V20G_-G17_-(D21:X1*Z1)-(G29:V31)-A1:N35_-Aa1:N35_-M23_-Z7_-M30_-N33:Z2_-Z15A-//-!
+|obv9-//_-Z14_-Z14_-Z16C_-v/_-M17_-D21:Z4_-A47_-(O29:Y1)-A1_-Q3:O34_-Aa18_-Z1_-M17_-M17_-W22_-Z1_-Z1_-M3:X1*Z1_-V1_-V20B_-G17_-(D46:X1*Z1)-G29:V31_-A1:N35_-Aa1:N35_-M23_-Z7_-A1-!
+|obv10-//_-Z14_-Z14_-Ff105_-Z16H_-M17_-(Y5:N35)-A24_-Z14_-Z14_-A1-!
+|obv11-v/_-O1_-Z14_-Ff105_-V40_-G5_-M17_-(G37:A1)-D54_-G17_-(D21:X1*Z1)-G41_-G1_-O36_-A24_-V22:Y1_-K5_-F46:N35_-V1C_-G17_-(D21:X1*Z1)-V30:V22_-V28_-M17_-M17_-P5_-v/-!
+|obv12-v/_-O1_-Z14_-Z14_-Ff105_-V40_-Z1-M18_-M17_-(Ff105:D54)-O49:X1*Z1_-I9_-A1-!
+|obv13-v/_-O1_-Z14_-Z14_-V40_-Z16A_-V30_-A24_-X1_-Z7_-A1_-N5_-V40_-Z16B_-Z7_-S29_-Aa1:X1*Z14_-D54A:X1*Z1_-A1_-N5_-V40_-Z16C_-(Q3:N35)-(X1:G1)-(G36:X1*Z14*Z14)-A1_-D46:O34_-W22_-Z1_-v/-!
+|obv14-//_-Aa18_-Z1_-M17_-M17_-W22_-Z4A_-(N11:Z1)-O1_-(D21:X1*N5)-V40_-Z16D_-(N35:Aa1)-Z14_-A24_-G17_-(G14:X1*Z14)-D46:O34_-W22_-Z1_-Z1_-Z1_-Z1_-M30_-N33:Z2_-Z1_-S29_-G17_-//-!
+|obv15-//_-Z14_-Z14_-V40_-Z16E_-S29_-(D46:X1*Z14)-F33:A1_-N5_-V40_-Z16F_-D28_-Z1_-D21_-Z1_-M17_-//_-M30_-N33:Z2_-Z1_-R14_-G17_-(Z4:D41)-W22_-Z1-!
+|obv16-//_-O1_-Z14_-Z14_-V40_-Z16G_-N16:Z1*N23_-(G37:A1)-N29_-G1_-U28_-G1_-N33:Z2_-V19_-Z1_-Ff105-!
+|obv17-//_-//_-V40_-Z16H_-U1:D12*D12_-A24_-X1_-Z7_-I9_-A1_-O1_-S29_-Ff105_-V20A_-Z15E_-D58_-M17_-G1_-Ff105_-V20_-Z15G_-M30_-N33:Z2_-Z1_-S29_-G17_-//-!
+|obv18-//_-//-V40A_-M17_-(Y5:N35)-R4:X1_-Q3_-Z7_-(Y1:A1)-._-D46:h/_-//_-M30_-N33:Z2_-Z1_-//-!
+|obv19-//_-(G41*G1)-O36_-A24_-D54_-V22:h/
