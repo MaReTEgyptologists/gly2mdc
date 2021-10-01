@@ -1,13 +1,13 @@
-# gly2mdc
-Gly2mdc is a tool to convert gly-files produced with JSesh to plain text files with Manuel de Codage (mdc) encoding
+# Gly2mdc
+### Gly2mdc is a tool to convert gly-files produced with JSesh (https://jsesh.qenherkhopeshef.org) to plain text files with cleaned Manuel de Codage (mdc) encoding.
 
-The .gly-files produced with for example JSesh are binary-files that require a hieroglyphic text editor to open them. From JSesh it is possible to copy out the mdc coding of the text but this takes several steps and takes time.
+The gly-files are binary-files that require a hieroglyphic text editor to open them. From JSesh it is possible to copy out the mdc coding of the text but this requires several steps and takes time. The copied text is, furthermore, cluttered with lines (instead of M17 Z7 A1 G17 O1 Z1 A1 the output is M17_-Z7_-A1_-G17_-O1_-Z1_-A1).
 
-With Gly2mdc it is possible to extract the mdc code with one command. For example:
+With Gly2mdc it is possible to extract cleaned mdc code with one command. For example:
 
-    java -jar Gly2mdc.jar Texts/OAshm113.gly
+    java -jar src/Gly2mdc.jar Texts/OAshm113.gly
 
-The folder <i>Texts</i> contains a gly-file produced with JSesh (OAshm113.gly), a file with copied encoding of the text (OAshm113.mdc) and a file produced with Gly2mdc (OAshm113_)
+The folder <i>Texts</i> contains a gly-file produced with JSesh (OAshm113.gly), a file showing the content of the gly-file when parsed to string (OAshm113_glyToString), a file with copied encoding from JSesh (OAshm113_mdc.txt) and a file produced with Gly2mdc (OAshm113_gly2mdc).
 
 TODO:
 - Write output to file
