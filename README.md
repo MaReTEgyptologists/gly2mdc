@@ -7,10 +7,12 @@ With Gly2mdc it is possible to extract cleaned mdc code with one command. For ex
 
     java -jar src/Gly2mdc.jar Texts/OAshm113.gly
 
+The resulting file (with the same name+\_gly2mdc) will be written to the folder _Result_.
+
 The folder <i>Texts</i> contains a gly-file produced with JSesh (OAshm113.gly), a file showing the content of the gly-file when parsed to string (OAshm113_glyToString), a file with copied encoding from JSesh (OAshm113_mdc.txt) and a file produced with Gly2mdc (OAshm113_gly2mdc).
 
 TODO:
-- Write output to file
+- ~~Write output to file~~
 - Handle text that has been marked as red
 - Handle shading of text
 - Add option: output text as Unicode charaters
