@@ -11,4 +11,6 @@ The folder <i>Texts</i> contains a gly-file produced with JSesh (OAshm113.gly), 
 
 TODO:
 - Write output to file
+- Handle text that has been marked as red
+- Handle shading of text
 - Add option: output text as Unicode charaters
