@@ -6,6 +6,7 @@
 package gly2mdc;
 
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -19,10 +20,12 @@ public class Gly2mdc {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        String longString = readBytes(args[0]);
+    public static void main(String[] args) throws IOException {
+        String filename = args[0];
+        String doc = filename.replaceFirst(".gly", "");
+        String longString = readBytes(filename);
         String[] lines = longString.split("\n");
-        String line;
+        String line, toFile = "";
         for (int i=0; i<lines.length; i++) {
             line = lines[i];
             if (!line.startsWith("++")) {
@@ -34,9 +37,21 @@ public class Gly2mdc {
                     line = line.replaceFirst("\\|[^ ]* ", "");
                     line = lineNr+" - "+line;
                 }
-                System.out.println(line);
+                //System.out.println(line);
+                toFile += line+"\n";
             }
         }
+        System.out.println(doc);
+        System.out.println(toFile);
+        printToFile(toFile, doc);
+    }
+    
+    private static void printToFile(String toFile, String doc) throws IOException {
+        String[] docArray = doc.split("/");
+        
+        WriteToFile writer = new WriteToFile("Result/"+docArray[docArray.length-1]+"_gly2mdc");
+        writer.write(toFile);
+        writer.end();
     }
     
     private static String readBytes(String filename) {
