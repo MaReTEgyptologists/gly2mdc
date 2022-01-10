@@ -13,6 +13,7 @@ The folder <i>Texts</i> contains a gly-file produced with JSesh (OAshm113.gly), 
 
 TODO:
 - ~~Write output to file~~
+- Add option to convert several files with one command
 - Handle text that has been marked as red
 - Handle the white spaces in hieroglyphic text that is mdc are produced with full stops
 - Handle shading of text
