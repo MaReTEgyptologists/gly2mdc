@@ -1,5 +1,5 @@
-# Gly2mdc
-### Gly2mdc is a tool to convert gly-files produced with JSesh (https://jsesh.qenherkhopeshef.org) to plain text files with cleaned Manuel de Codage (mdc) encoding.
+# Gly2Mdc
+### Gly2Mdc is a tool to convert gly-files produced with JSesh (https://jsesh.qenherkhopeshef.org) to plain text files with cleaned Manuel de Codage (MdC) encoding.
 
 The gly-files are binary-files that require a hieroglyphic text editor to open them. From JSesh it is possible to copy out the mdc coding of the text but this requires several steps and takes time. The copied text is, furthermore, cluttered with lines (instead of M17 Z7 A1 G17 O1 Z1 A1 the output is M17_-Z7_-A1_-G17_-O1_-Z1_-A1).
 
@@ -18,3 +18,4 @@ TODO:
 - Handle the white spaces in hieroglyphic text that is mdc are produced with full stops
 - Handle shading of text
 - Add option: output text as Unicode charaters
+- Output the text in TEI file format
