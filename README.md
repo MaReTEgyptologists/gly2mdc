@@ -3,7 +3,7 @@
 
 The gly-files are binary-files that require a hieroglyphic text editor to open them. From JSesh it is possible to copy out the mdc coding of the text but this requires several steps and takes time. The copied text is, furthermore, cluttered with lines (instead of M17 Z7 A1 G17 O1 Z1 A1 the output is M17_-Z7_-A1_-G17_-O1_-Z1_-A1).
 
-With Gly2mdc it is possible to extract cleaned mdc code with one command. For example:
+With **Gly2mdc v. 1.0** it is possible to extract cleaned mdc code with one command. For example:
 
     java -jar src/Gly2mdc.jar Texts/OAshm113.gly
 
