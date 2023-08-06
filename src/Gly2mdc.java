@@ -41,15 +41,15 @@ public class Gly2mdc {
                 toFile += line+"\n";
             }
         }
-        System.out.println(doc);
-        System.out.println(toFile);
+        //System.out.println(doc);
+        //System.out.println(toFile);
         printToFile(toFile, doc);
     }
     
     private static void printToFile(String toFile, String doc) throws IOException {
         String[] docArray = doc.split("/");
         
-        WriteToFile writer = new WriteToFile("Result/"+docArray[docArray.length-1]+"_gly2mdc");
+        WriteToFile writer = new WriteToFile("Result/"+docArray[docArray.length-1]+".txt");
         writer.write(toFile);
         writer.end();
     }
