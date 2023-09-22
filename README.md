@@ -5,11 +5,14 @@ The gly-files are binary-files that require a hieroglyphic text editor to open t
 
 With **Gly2mdc v. 1.0** it is possible to extract cleaned mdc code with one command. For example:
 
-    java -jar src/Gly2mdc.jar Texts/OAshm113.gly
+    java -jar Gly2mdc.jar Texts/OAshm113.gly
 
-The resulting file (with the same name+\_gly2mdc) will be written to the folder _Result_.
+The resulting file with the mdc will have the same name+\_gly2mdc.txt).
 
 The folder <i>Texts</i> contains a gly-file produced with JSesh (OAshm113.gly), a file showing the content of the gly-file when parsed to string (OAshm113_glyToString), a file with copied encoding from JSesh (OAshm113_mdc.txt) and a file produced with Gly2mdc (OAshm113_gly2mdc).
+
+Update on 22.9.2023:
+Changed the extension of the mdc-file to _gly2mdc.txt so that it can be opened by any text editor. The old version is in the folder OldFiles.
 
 TODO:
 - ~~Write output to file~~
