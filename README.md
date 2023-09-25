@@ -9,9 +9,9 @@ With **Gly2mdc v. 1.0** it is possible to extract cleaned mdc code with one comm
 
 The resulting file with the mdc will have the same name+\_gly2mdc.txt).
 
-The folder <i>Texts</i> contains a gly-file produced with JSesh (OAshm113.gly), a file showing the content of the gly-file when parsed to string (OAshm113_glyToString), a file with copied encoding from JSesh (OAshm113_mdc.txt) and a file produced with Gly2mdc (OAshm113_gly2mdc).
+The folder <i>Texts</i> contains a gly-file produced with JSesh (OAshm113.gly), a file showing the content of the gly-file when parsed to string (OAshm113_glyToString), a file with copied encoding from JSesh (OAshm113_mdc.txt) and a file produced with Gly2mdc (OAshm113_gly2mdc.txt).
 
-Update on 22.9.2023:
+**Update on 22.9.2023**:
 Changed the extension of the mdc-file to _gly2mdc.txt so that it can be opened by any text editor. The old version is in the folder OldFiles.
 
 TODO:
@@ -20,5 +20,7 @@ TODO:
 - Handle text that has been marked as red
 - Handle the white spaces in hieroglyphic text that is mdc are produced with full stops
 - Handle shading of text
-- Add option: output text as Unicode charaters
-- Output the text in TEI file format
+
+Gly2Mdc v. 2.0   
+- Output text as Unicode charaters
+- Output the text in JSON file format
